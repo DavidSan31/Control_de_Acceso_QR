@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Acceso</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Registro de Ingreso y Salida</h1>
+    <form method="POST">
+        <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="apellido">Apellido</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div class="form-group">
+            <label for="documento">Documento</label>
+            <input type="text" id="documento" name="documento" required>
+        </div>
+        <div class="form-group">
+            <label for="observaciones">Observaciones</label>
+            <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" name="accion" value="Ingreso">Ingreso</button>
+        </div>
+        <div class="form-group">
+            <button type="submit" name="accion" value="Salida">Salida</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
